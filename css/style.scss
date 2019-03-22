@@ -21,6 +21,7 @@ body{
     background: url(/images/bg.jpg) center center / cover no-repeat;
     background-attachment: fixed;
     color: #777;
+    overflow: hidden;
 }
 .wrapper{
     max-width: 1170px;

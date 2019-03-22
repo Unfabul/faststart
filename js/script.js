@@ -47,6 +47,7 @@ $(window).on('load', function(){
 
 setTimeout(func, 500);
 function func(){
+    document.body.style.overflow = 'visible';
     mainLogo.classList.add('anim');
     h1.classList.add('anim');
     mainP.classList.add('anim');
